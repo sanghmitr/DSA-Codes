@@ -1,0 +1,14 @@
+1. 0-1 Knapsack
+    1.1 Subset Sum problem
+    1.2 Equal sum partition
+    1.3 Count of Subset sum
+    1.4 Minimum subset sum difference
+    1.5 Target sum
+    1.6 Number of subset where given a difference
+
+2. Unbounded Knapsack
+    2.1 Rod cutting
+    2.2 Coin change problem
+    2.3 Coin Change - II
+    2.4 Maximum ribbon cutting
+
