@@ -29,7 +29,7 @@ bool canPlaceBirds(int B, int N, vector<int>&nests, int sep)
         int cur_location = nests[i];
         if(cur_location - location >= sep)
         {
-            birds++;
+            birds++; 
             location = cur_location;
 
             if(birds == B)
