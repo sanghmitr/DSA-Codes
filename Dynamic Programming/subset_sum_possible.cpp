@@ -27,6 +27,15 @@ bool isSubsetSum(vector<int>&nums, int sum, int n)
                 dp[i][j] = dp[i-1][j];
         }
     }
+
+    // for(int i=0;i<=n;i++)
+    // {
+    //     for(int j=0;j<=sum;j++)
+    //     {
+    //         cout<<dp[i][j]<<" ";
+    //     }
+    //     cout<<endl;
+    // }
     return dp[n][sum];
 }
 int main()
