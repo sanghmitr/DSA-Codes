@@ -87,6 +87,19 @@ HDPair optDiameter(Node *root)
         p.diameter = max({d1,d2,d3});
         return p;
     }
+
+
+int diameter1(Node *root, int &ans)
+{
+    if(root == NULL)
+        return 0;
+    
+    int left = diameter1(root->left, ans);
+    int right = diameter1(root->right, ans);
+
+    ans = max(ans, left+right);
+    return max(left, right)+1;
+}
 int main()
 {
     ios_base :: sync_with_stdio(0);
@@ -97,6 +110,10 @@ int main()
     inorder(root);
     cout<<endl<<"Diameter is : "<<diameter(root)<<endl;
     cout<<"Optimized diameter is : "<<optDiameter(root).diameter<<endl;
+
+    int ans = 0;
+    diameter1(root, ans);
+    cout<<endl<<"New Diameter is : "<<ans<<endl;
     return 0;
 }
 // Input - 1 2 4 -1 -1 5 7 -1 -1 -1 3 -1 6 -1 -1

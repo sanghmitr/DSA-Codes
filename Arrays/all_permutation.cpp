@@ -41,7 +41,7 @@ int main()
     cin.tie(0);
     cout.tie(0);
     
-    vector<int>nums = {1,2,3,4};
+    vector<int>nums = {1,3,2};
     vector<vector<int>>ans = permute(nums);
     for(auto v : ans)
     {

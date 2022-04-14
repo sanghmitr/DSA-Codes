@@ -12,3 +12,10 @@
     2.3 Coin Change - II
     2.4 Maximum ribbon cutting
 
+3. DP on stocks
+    3.1. Buy and Sell Stocks
+    3.2. Buy and Sell Stocks - II
+    3.3 Buy and Sell Stocks - III
+    3.4. Buy and Sell Stocks - IV
+    3.5. Buy and Sell Stocks with Cooldown
+    3.6. Buy and Sell Stocks with Transaction Fee
