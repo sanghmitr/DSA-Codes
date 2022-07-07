@@ -25,23 +25,23 @@ int main()
         insert the words in that order in Trie so that the suggestions gets filled with releveant words.
         
     */
-    struct Trie {
-        unordered_map<char, Trie*> leaves;
-        // Lexographically sorted suggestion till each char 
-        vector<string> suggestions;
-    };
-    
-    void insertTrie(Trie* root, string word) {
-        for(const char& c: word) {
-            if(root->leaves.find(c) == root->leaves.end())
-                root->leaves[c] = new Trie();
-            root = root->leaves[c];
-            
-            // Add the current word as suggestion if we dont have enough suggestions
-            if(root->suggestions.size() < 3)
-                root->suggestions.emplace_back(word);
-        }
+struct Trie {
+    unordered_map<char, Trie*> leaves;
+    // Lexographically sorted suggestion till each char 
+    vector<string> suggestions;
+};
+
+void insertTrie(Trie* root, string word) {
+    for(const char& c: word) {
+        if(root->leaves.find(c) == root->leaves.end())
+            root->leaves[c] = new Trie();
+        root = root->leaves[c];
+        
+        // Add the current word as suggestion if we dont have enough suggestions
+        if(root->suggestions.size() < 3)
+            root->suggestions.emplace_back(word);
     }
+}
     
     
 class Solution {

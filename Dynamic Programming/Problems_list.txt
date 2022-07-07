@@ -1,0 +1,69 @@
+1. One Dimensional DP
+    1.1 Count ways to reach the nth stair
+    1.2 Frog Jump
+    1.3 Frog jump with distance K
+    1.4 House Robber
+    1.5 House Robber 2
+
+2. Two-Dimensional DP (DP on grids)
+    2.1 Ninja's Training
+    2.2 Count paths on grids
+    2.3 Count paths with obstacles
+    2.4 Min path sum
+    2.5 Max path sum
+    2.6 Triagle
+    2.7 Two start points
+    2.8 Cherry Pickup (leetcode)
+    2.9 Cherry Pickup -2 (leetcode)
+
+3. DP on Subsequences
+    3.1 Subset sum to target
+    3.2 Partition Equal Subset sum
+    3.3 Partition a set into two subsets with minimum absolute difference
+    3.4 Count number of subsets
+    3.5 0-1 Knapsack
+    3.6 Coin Change ---> Can also be solved using 1D DP
+    3.7 Target Sum
+    3.8 Coin Change 2
+    3.9 Unbounded Knapsack
+    3.10 Rod Cutting problem
+
+4. DP on Strings
+    4.1 Longest Common Subsequence
+    4.2 Print Longest common Subsequence
+    4.3 Longest Common Substring
+    4.4 Longest Palindromic Subsequence
+    4.5 Minimum Insertions to make string palindrome
+    4.6 Minimum Insertions/Deletions to convert string
+    4.7 Shortest common supersequence
+    4.8 Distinct Subsequences
+    4.9 Edit distance
+    4.10 Wildcard Matching
+
+5. DP on stocks
+    5.1 Best time to buy and sell stocks
+    5.2 Buy and sell Stock-2
+    5.3 Buy and sell stocks - 3
+    5.4 Buy and sell stocks - 4
+    5.5 Buy and sell stocks with cooldown
+    5.6 Buy and sell stocks with transaction feel
+
+6. DP on LIS
+    6.1 Longest Increasing Subsequence
+    6.2 Printing longest increasing Subsequence
+    6.3 Longest Increasing Subsequence
+    6.4 Largest Divisible subsets
+    6.5 Longest string chain
+    6.6 Longest Bitonic Subsequence
+    6.7 Number of longest increasing Subsequence
+
+7. MCM DP | Partition DP
+    7.1 Matrix chain Multiplication
+    7.2 Minimum cost to cut the stick
+    7.3 Burst Balloons
+    7.4 Evaluate boolean expression to true
+    7.5 Palindrom Partitioning -2
+    7.6 Partition Array for maximum sum
+
+
+
