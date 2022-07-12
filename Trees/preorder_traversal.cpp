@@ -3,7 +3,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+//Recursive
+void preorder(TreeNode *root, vector<int>&pre){
+    if(root == NULL)
+        return;
+    pre.push_back(root->val);
+    preorder(root->left, pre);
+    preorder(root->right, pre);
+    return pre;
+}
 //Iterative
 vector<int> preorderTraversal(TreeNode *root)
 {

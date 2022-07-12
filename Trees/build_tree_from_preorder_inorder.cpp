@@ -1,5 +1,18 @@
 //https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
 
+#include<bits/stdc++.h>
+using namespace std;
+     
+int main()
+{
+    ios_base :: sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    
+    
+    return 0;
+}
+
 class Solution {
 public:
     unordered_map<int, int>mp;
@@ -17,6 +30,7 @@ public:
         root->right = build(preorder, k, inorder, start+1, j);
         return root;
     }
+    
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         for(int i=0;i<inorder.size(); i++)
         {
