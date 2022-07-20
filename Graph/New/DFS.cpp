@@ -15,9 +15,14 @@ void dfs_helper(int src, vector<bool>&visited)
     visited[src] = true;
     for(auto nbr : adj[src])
     {
-        if(!visited[nbr])
+        if(!visited[nbr]){
+            cnt++;
             dfs_helper(nbr, visited);
+            cnt++;
+        }
+            
     }
+
 }
 
 void dfs()

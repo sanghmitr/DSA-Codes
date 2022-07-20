@@ -89,4 +89,4 @@ def main():
 
 
 if __name__ == "__main__":
-    getRanking('weekly-contest-300')
+    getRanking('weekly-contest-302')
